@@ -185,7 +185,7 @@
    `(font-lock-function-name-face ((t (:foreground ,molokai-chartreuse))))
    `(font-lock-keyword-face ((t (:foreground ,molokai-pink :weight bold))))
    ;; `(font-lock-keyword-face ((t (:foreground ,molokai-pink))))
-   `(font-lock-negation-char-face ((t (:foreground ,molokai-wine))))
+   `(font-lock-negation-char-face ((t (:foreground ,molokai-wine :weight bold))))
    `(font-lock-preprocessor-face ((t (:inherit (font-lock-builtin-face)))))
    `(font-lock-regexp-grouping-backslash ((t (:inherit (bold)))))
    `(font-lock-regexp-grouping-construct ((t (:inherit (bold)))))
