@@ -185,7 +185,7 @@
    `(font-lock-function-name-face ((t (:foreground ,molokai-chartreuse))))
    `(font-lock-keyword-face ((t (:foreground ,molokai-pink :weight bold))))
    ;; `(font-lock-keyword-face ((t (:foreground ,molokai-pink))))
-   `(font-lock-negation-char-face ((t (:foreground ,molokai-wine :weight bold))))
+   `(font-lock-negation-char-face ((t (:foreground ,molokai-red :weight bold))))
    `(font-lock-preprocessor-face ((t (:inherit (font-lock-builtin-face)))))
    `(font-lock-regexp-grouping-backslash ((t (:inherit (bold)))))
    `(font-lock-regexp-grouping-construct ((t (:inherit (bold)))))
@@ -193,6 +193,11 @@
    `(font-lock-type-face ((t (:foreground ,molokai-blue))))
    `(font-lock-variable-name-face ((t (:foreground ,molokai-orange))))
    `(font-lock-warning-face ((t (:foreground ,molokai-palevioletred :weight bold))))
+
+   `(my-backslash-escape-char-face ((t (:foreground ,molokai-blue))))
+   `(my-backslash-escape-backslash-face ((t (:foreground ,molokai-green))))
+   `(font-lock-my-format-code-format-face ((t (:foreground ,molokai-pink))))
+   `(font-lock-my-format-code-directive-face ((t (:foreground ,molokai-wine :weight bold))))
 
    ;; mode line
    `(mode-line ((t (:foreground ,molokai-fg
