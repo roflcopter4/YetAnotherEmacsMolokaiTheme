@@ -684,7 +684,8 @@
    `(org-meta-line ((,t (:foreground ,meta))))
    `(org-mode-line-clock-overrun ((,t (:foreground ,err))))
    `(org-priority ((,t (:foreground ,war :weight bold))))
-   `(org-quote ((,t (:weight org-block :slant italic))))
+   ;; `(org-quote ((,t (:weight org-block :slant italic))))
+   `(org-quote ((,t (:slant italic))))
    `(org-scheduled ((,t (:foreground ,comp))))
    `(org-scheduled-today ((,t (:foreground ,func :height ,(if spacemacs-theme-org-agenda-height 1.2 1.0)))))
    `(org-sexp-date ((,t (:foreground ,base))))
@@ -693,7 +694,8 @@
    `(org-time-grid ((,t (:foreground ,str))))
    `(org-todo ((,t (:foreground ,war :weight bold :background ,yellow-bg))))
    `(org-verbatim ((,t (:foreground ,keyword))))
-   `(org-verse ((,t (:weight org-block :slant italic))))
+   ;; `(org-verse ((,t (:weight org-block :slant italic))))
+   `(org-verse ((,t (:slant italic))))
    `(org-warning ((,t (:foreground ,err))))
 
 ;;;;; perspective
