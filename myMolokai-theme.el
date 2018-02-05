@@ -767,8 +767,8 @@
 
 ;;;;; tabbar
    `(tabbar-default ((,t (:background ,bg1 :foreground ,head1 :height 0.9))))
-   `(tabbar-button ((,t (:weight tabbar-default ))))
-   `(tabbar-button-highlight ((,t (:weight tabbar-default))))
+   `(tabbar-button ((,t ())))
+   `(tabbar-button-highlight ((,t ())))
    `(tabbar-highlight ((,t (:underline t))))
    `(tabbar-selected ((,t (:weight tabbar-default :foreground ,func :weight bold))))
    `(tabbar-separator ((,t (:weight tabbar-default))))
