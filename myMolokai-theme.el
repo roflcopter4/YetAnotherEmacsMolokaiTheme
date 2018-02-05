@@ -194,12 +194,15 @@
    `(font-lock-variable-name-face ((t (:foreground ,molokai-orange))))
    `(font-lock-warning-face ((t (:foreground ,molokai-palevioletred :weight bold))))
 
+
+   ;; SOME ADDITIONS
    `(my-backslash-escape-char-face ((t (:foreground ,molokai-blue))))
    `(my-backslash-escape-backslash-face ((t (:foreground ,molokai-blue))))
    `(my-format-code-format-face ((t (:foreground ,molokai-pink))))
    `(my-format-code-directive-face ((t (:foreground ,molokai-pink))))
    ;; `(my-format-code-format-face ((t (:foreground ,molokai-pink :weight bold))))
    ;; `(my-format-code-directive-face ((t (:foreground ,molokai-pink :weight bold))))
+
 
    ;; mode line
    `(mode-line ((t (:foreground ,molokai-fg
